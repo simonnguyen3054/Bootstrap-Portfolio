@@ -5,24 +5,13 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
-
-<style>
-  body {
-    background: url("assets/images/background_icon.png") no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  p {
-    line-height: 2;
-  }
-</style>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container py-2">
-      <a class="navbar-brand bg-info px-2" href="#">Simon Nguyen</a>
+      <a class="navbar-brand bg-info px-2" href="index.html">Simon Nguyen</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,15 +20,15 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav justify-content-end">
           <li class="nav-item px-4">
-            <a class="nav-link" href="#">About
+            <a class="nav-link" href="index.html">About
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item px-4">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item pl-4">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -48,7 +37,7 @@
 
   <div class="container">
     <div class="jumbotron mt-5 pt-3 pb-3">
-      <h1>About Me</h1>
+      <h1 class="jumbotron-heading">About Me</h1>
       <hr>
       <div id="profile_picture">
         <img src="./assets/images/200x200_image_placeholder.png" class="img-fluid float-left pr-2 pb-2" alt="Profile Picture">
@@ -73,18 +62,15 @@
     </div>
   </div>
 
-  <!-- <footer id="footer-container" class="bg-dark text-white py-1 position-relative">
-    <div>
-      <p class="text-center">Copyright &#169;</p>
-    </div>
-  </footer> -->
-  <!-- Footer -->
-  <footer class="page-footer font-small bg-dark pt-4 mt-2 fixed-bottom">
+  <!-- Spacer -->
+  <div class="py-5">
+  </div>
+
+  <footer class="footer bg-dark pt-4">
     <div class="footer-copyright text-center text-white py-3">
       Copyright &#169;
     </div>
   </footer>
-  <!-- Footer -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
