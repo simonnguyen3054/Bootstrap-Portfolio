@@ -4,6 +4,10 @@ body {
   background-size: cover;
 }
 
+.navbar {
+  height: 50px;
+}
+
 img {
   width: 25%;
 }
