@@ -1,11 +1,15 @@
 /* web background */
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   background: url("../images/background_icon.png") no-repeat center center fixed;
   background-size: cover;
 }
 
 .navbar {
-  height: 50px;
+  padding: 0;
 }
 
 img {
@@ -30,10 +34,17 @@ img {
   text-align: center;
 }
 
-.footer {
+/* .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+} */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
 }
 
 p {
@@ -47,5 +58,11 @@ p {
 
   .card {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  img {
+    width: 200%;
   }
 }
