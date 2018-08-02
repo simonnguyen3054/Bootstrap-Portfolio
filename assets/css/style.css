@@ -16,6 +16,10 @@ img {
   width: 25%;
 }
 
+.card img {
+  height: 300px;
+}
+
 .card {
   width: 90%;
 }
